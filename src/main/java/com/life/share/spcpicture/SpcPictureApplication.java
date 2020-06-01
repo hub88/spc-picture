@@ -10,4 +10,5 @@ public class SpcPictureApplication {
 		SpringApplication.run(SpcPictureApplication.class, args);
 	}
 
+
 }
