@@ -8,14 +8,26 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.life.share</groupId>
 	<artifactId>spc-picture</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
 	<name>spc-picture</name>
 	<description>Demo project for Spring Boot</description>
 
+	<!-- 声明子模块 -->
+	<modules>
+		<module>eureka</module>
+		<module>admin</module>
+	</modules>
+
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>Hoxton.SR4</spring-cloud.version>
 	</properties>
 
 	<dependencies>
